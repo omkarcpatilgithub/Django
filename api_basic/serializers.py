@@ -21,5 +21,6 @@ from .models import Article
 class ArticleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Article
-        fields = ['id','title','author','email']
+        fields = ['id','room','book_date','booked','name']
+        # fields = ['id','title','author']
 
